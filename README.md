@@ -80,7 +80,8 @@ Existing config files are backed up (e.g. `~/.zshrc.backup.YYYYMMDDHHMMSS`) befo
 
 ## Requirements
 
-- macOS (Apple Silicon or Intel)
+- **macOS 14 (Sonoma) or later** — officially supported. macOS 13 (Ventura) may work on a best-effort basis (minimum for Ghostty, and Homebrew's unsupported tier), but isn't tested.
+- Apple Silicon or Intel — both are handled (universal binaries where available)
 - An internet connection
 - Admin password for Xcode Command Line Tools (prompted on first run)
 
